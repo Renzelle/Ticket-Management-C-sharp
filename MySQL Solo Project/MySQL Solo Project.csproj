@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11D0501F-19DC-4C67-B3F6-D877E5B0C94F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MySQL_Solo_Project</RootNamespace>
+    <AssemblyName>MySQL Solo Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Desktop\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Desktop\Programming 3\cp3 library\MySql.Data.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccounts.Designer.cs">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddAccount.Designer.cs">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEquipment.Designer.cs">
+      <DependentUpon>frmAddEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddTicketUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddTicketUser.Designer.cs">
+      <DependentUpon>frmAddTicketUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteAccountLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteAccountLogs.Designer.cs">
+      <DependentUpon>frmDeleteAccountLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteEquipmentLogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteEquipmentLogs.Designer.cs">
+      <DependentUpon>frmDeleteEquipmentLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketAdminApprove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketAdminApprove.Designer.cs">
+      <DependentUpon>frmTicketAdminApprove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEquipments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipments.Designer.cs">
+      <DependentUpon>frmEquipments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainWindow.Designer.cs">
+      <DependentUpon>frmMainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketAdmin.Designer.cs">
+      <DependentUpon>frmTicketAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketAdminAssign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketAdminAssign.Designer.cs">
+      <DependentUpon>frmTicketAdminAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketsUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketsUser.Designer.cs">
+      <DependentUpon>frmTicketsUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketTechnical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketTechnical.Designer.cs">
+      <DependentUpon>frmTicketTechnical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTicketTechnicalComplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTicketTechnicalComplete.Designer.cs">
+      <DependentUpon>frmTicketTechnicalComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateAccount.Designer.cs">
+      <DependentUpon>frmUpdateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateEquipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateEquipment.Designer.cs">
+      <DependentUpon>frmUpdateEquipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateTicketUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateTicketUser.Designer.cs">
+      <DependentUpon>frmUpdateTicketUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tblDeleteLogsTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tblDeleteLogsTicket.Designer.cs">
+      <DependentUpon>tblDeleteLogsTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_CS311_2022DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_CS311_2022DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccounts.resx">
+      <DependentUpon>frmAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddAccount.resx">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEquipment.resx">
+      <DependentUpon>frmAddEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTicketUser.resx">
+      <DependentUpon>frmAddTicketUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteAccountLogs.resx">
+      <DependentUpon>frmDeleteAccountLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteEquipmentLogs.resx">
+      <DependentUpon>frmDeleteEquipmentLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketAdminApprove.resx">
+      <DependentUpon>frmTicketAdminApprove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipments.resx">
+      <DependentUpon>frmEquipments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainWindow.resx">
+      <DependentUpon>frmMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketAdmin.resx">
+      <DependentUpon>frmTicketAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketAdminAssign.resx">
+      <DependentUpon>frmTicketAdminAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketsUser.resx">
+      <DependentUpon>frmTicketsUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketTechnical.resx">
+      <DependentUpon>frmTicketTechnical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTicketTechnicalComplete.resx">
+      <DependentUpon>frmTicketTechnicalComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateAccount.resx">
+      <DependentUpon>frmUpdateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateEquipment.resx">
+      <DependentUpon>frmUpdateEquipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateTicketUser.resx">
+      <DependentUpon>frmUpdateTicketUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="tblDeleteLogsTicket.resx">
+      <DependentUpon>tblDeleteLogsTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_CS311_2022DataSet.xsc">
+      <DependentUpon>_CS311_2022DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_CS311_2022DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_CS311_2022DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_CS311_2022DataSet.xss">
+      <DependentUpon>_CS311_2022DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-user-login-mobile-phones-password-user-5adcc37905c036.8550724215244174010236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_5233379.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_user-icon-png_1280406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kissclipart-password-icon-clipart-password-computer-icons-clip-d813f06606bcdc9a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table-icon-24160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-business-report-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-important-file-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-graph-report-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\588a6507d06f6719692a2d15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-file-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\branding.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tikcetchart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tikcet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarketReport_11_08_21_Chart3_EVI_Freightliner_Sleeper_Trucks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie-chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie-chart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-chart %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar-code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manufacture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-document-interface-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\branch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\income.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppng.com-two-tickets-icon-ticket-ico-1495x1303.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technician.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technician %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PngItem_2830036.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

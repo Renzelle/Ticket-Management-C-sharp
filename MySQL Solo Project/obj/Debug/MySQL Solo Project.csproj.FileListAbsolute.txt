@@ -1,0 +1,32 @@
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\bin\Debug\MySQL Solo Project.exe.config
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\bin\Debug\MySQL Solo Project.exe
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\bin\Debug\MySQL Solo Project.pdb
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL Solo Project.csproj.AssemblyReference.cache
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.Form1.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.Properties.Resources.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL Solo Project.csproj.GenerateResource.cache
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL Solo Project.csproj.CoreCompileInputs.cache
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL Solo Project.exe
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL Solo Project.pdb
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\bin\Debug\MySql.Data.DLL
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL Solo Project.csproj.CopyComplete
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmAccounts.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmUpdateAccount.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmAddAccount.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmMainWindow.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmEquipments.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmAddEquipment.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmUpdateEquipment.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmTicketsUser.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmAddTicketUser.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmUpdateTicketUser.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmTicketAdmin.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmTicketAdminAssign.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmTicketTechnical.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmTicketTechnicalComplete.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmTicketAdminApprove.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmChangePassword.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmDeleteAccountLogs.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmDeleteEquipmentLogs.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.tblDeleteLogsTicket.resources
+C:\Users\GIGABYTE\source\repos\MySQL Solo Project\MySQL Solo Project\obj\Debug\MySQL_Solo_Project.frmAbout.resources
